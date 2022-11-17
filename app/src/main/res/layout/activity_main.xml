@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/yes"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="BMI"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/yes2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="הכנס גובה"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:inputType="numberDecimal"
+        android:hint="Height"/>
+
+    <TextView
+        android:id="@+id/yes3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="הכנס משקל"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:inputType="numberDecimal"
+        android:hint="Weight"/>
+    <Button
+        android:id="@+id/x"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="חשב"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/yes4"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="תוצאה:"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/yes5"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text=""
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="125dp"/>
+    <Button
+        android:id="@+id/intentb"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Data"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="22dp"/>
+
+</LinearLayout>
